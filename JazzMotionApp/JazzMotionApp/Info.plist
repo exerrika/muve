@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSMotionUsageDescription</key>
+    <string>This app uses motion sensors to automatically select jazz music based on your movement intensity.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app may need microphone access for audio session management.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+    </array>
+    <key>AVAudioSessionCategoryOptions</key>
+    <array>
+        <string>AVAudioSessionCategoryOptionAllowBluetooth</string>
+        <string>AVAudioSessionCategoryOptionAllowBluetoothA2DP</string>
+        <string>AVAudioSessionCategoryOptionAllowAirPlay</string>
+    </array>
+</dict>
+</plist>
